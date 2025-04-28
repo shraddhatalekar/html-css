@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume with Photo</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            border-bottom: 3px solid #4CAF50;
+            padding-bottom: 20px;
+        }
+        .photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 20px;
+        }
+        .photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .header-content {
+            flex: 1;
+        }
+        .header-content h1 {
+            font-size: 36px;
+            color: #4CAF50;
+            margin: 0;
+        }
+        .header-content p {
+            margin: 5px 0;
+            color: #666;
+        }
+        .section {
+            margin-top: 30px;
+        }
+        .section h2 {
+            font-size: 24px;
+            color: #4CAF50;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+        ul {
+            padding: 0;
+            list-style-type: none;
+        }
+        ul li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+        .contact {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .contact a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #4CAF50;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+        .contact a:hover {
+            background-color: #3e8e41;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <div class="photo">
+                <img src="https://via.placeholder.com/120" alt="Your Photo">
+            </div>
+            <div class="header-content">
+                <h1>Your Name</h1>
+                <p>Email: your.email@example.com | Phone: (123) 456-7890 | Location: Your City</p>
+            </div>
+        </div>
+
+        <!-- Summary Section -->
+        <div class="section">
+            <h2>Summary</h2>
+            <p>A brief overview of your professional background, key skills, and career aspirations.</p>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>Skill 1</li>
+                <li>Skill 2</li>
+                <li>Skill 3</li>
+                <li>Skill 4</li>
+            </ul>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="section">
+            <h2>Experience</h2>
+            <ul>
+                <li><strong>Job Title 1</strong> - Company Name (Month Year - Month Year)</li>
+                <li><strong>Job Title 2</strong> - Company Name (Month Year - Month Year)</li>
+            </ul>
+        </div>
+
+        <!-- Education Section -->
+        <div class="section">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Degree Name</strong> - Institution Name (Month Year - Month Year)</li>
+                <li><strong>Degree Name</strong> - Institution Name (Month Year - Month Year)</li>
+            </ul>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="section">
+            <h2>Projects</h2>
+            <ul>
+                <li><strong>Project Title</strong> - Brief description of the project.</li>
+                <li><strong>Project Title</strong> - Brief description of the project.</li>
+            </ul>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="contact">
+            <a href="mailto:your.email@example.com">Email Me</a>
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+            <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+        </div>
+    </div>
+</body>
+</html>
